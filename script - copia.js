@@ -3,8 +3,8 @@
 function menu(){
     let x = 1;
     let listajugadores = [];
-    console.log("bienvenido, Elija la cantidad de casillas del tablero");
-    let casillas = prompt(': ');
+    console.log("bienvenido, Elija la cantidad de casillas (escribir 3 para 3x3, 4 para 4x4 y 5 para 5x5) del tablero");
+    let casillas = prompt('bienvenido, Elija la cantidad de casillas del tablero: ');
     console.log("Ahora, introduce los nombres de los jugadores");
     while (x < 5) {
         let n = prompt(`Introduce el nombre del jugador ${x}: `);
